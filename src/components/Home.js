@@ -189,7 +189,7 @@ const Home = () => {
             {isItPalindrome && <p className="results">Awesome! Your birday is a palidrome day.🥳</p>}
             {dateAndDays && <p className="results">Your Date of Birth is not Palindrome. You missed it by {dateAndDays[0]} days. The Nearest palindrome date is {dateAndDays[1].day + "/" + dateAndDays[1].month + "/" + dateAndDays[1].year}. But you are still born special 🥳.</p>}
             <footer>
-                <p>&copy;Dhruva | 2021 September 2021</p>
+                <p>Dhruva | 2021 September 2021</p>
             </footer>
         </div>
     );

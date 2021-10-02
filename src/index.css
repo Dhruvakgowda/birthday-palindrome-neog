@@ -15,22 +15,26 @@ body {
     text-align: center;
 }
  h1 {
-     color: #3d830b;
+     color: white;
+     background-color: #3d830b;
  }
 
 .btn {
     padding: 12px 20px;
     border-radius: 10px;
-    border: none;
+    border: 1px solid #3d830b;
     background-color: #3d830b;
     color: #fff;
     min-width: 160px;
     display: block;
-    margin: 10px auto 20px auto;
+    margin: 1rem auto 2rem auto;
 }
 
 .btn:hover {
     cursor: pointer;
+    background-color: white;
+    color: #3d830b;
+    border: 1px solid #3d830b;
 }
 
 
