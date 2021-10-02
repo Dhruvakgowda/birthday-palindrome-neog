@@ -187,7 +187,7 @@ const Home = () => {
             </form>
 
             {isItPalindrome && <p className="results">Awesome! Your birday is a palidrome day.🥳</p>}
-            {dateAndDays && <p className="results">Your Date of Birth is not Palindrome. You missed it by {dateAndDays[0]} days. The Nearest palindrome date is {dateAndDays[1].day + "/" + dateAndDays[1].month + "/" + dateAndDays[1].year}. But you are still born special 🥳.</p>}
+            {dateAndDays && <p className="results">Your Date of Birth is not a Palindrome.<br/> You missed it by {dateAndDays[0]} days. The Nearest palindrome date is {dateAndDays[1].day + "/" + dateAndDays[1].month + "/" + dateAndDays[1].year}. But not to worry you are still born special 🥳.</p>}
             <footer>
                 <p>Dhruva | 2021 September 2021</p>
             </footer>
