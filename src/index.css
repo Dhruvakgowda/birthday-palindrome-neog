@@ -14,14 +14,17 @@ body {
     padding: 10px;
     text-align: center;
 }
-
+ h1 {
+     color: #3d830b;
+ }
 
 .btn {
     padding: 12px 20px;
     border-radius: 10px;
     border: none;
-    background-color: rgb(40, 190, 201);
+    background-color: #3d830b;
     color: #fff;
+    min-width: 160px;
     display: block;
     margin: 10px auto 20px auto;
 }
@@ -41,7 +44,10 @@ body {
 .results {
     font-weight: 900;
     font-size: 1.5rem;
-    color: rgb(29, 37, 150);
+    color: white;
+    background-color: #3d830b;
+    width: 60%;
+    margin: auto;
     margin-bottom: 5rem;
 }
 

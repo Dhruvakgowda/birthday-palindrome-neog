@@ -170,10 +170,10 @@ const Home = () => {
 
     return (
         <div className="home">
-            <h1 className="instruction-header">Enter your birthdate and we will tell you if your birthdate is a palindrome</h1>
+            <h1 className="instruction-header">Enter your Date of Birth <br/> and find out if your Birthday is a Palindrome</h1>
             <form onSubmit={(e) => check(e)} className="middle-container" id="form">
-                <p className="instruction">This app checks your birthdate in 4 formats yyyy-mm-dd, dd-mm-yyyy, mm-dd-yy, m-dd-yyyy</p>
-                <p className="instruction">e.g. if your birthdate is 01 Aug 1995, then app will check for 19950801, 01081995, 080195, 1081995</p>
+                <p className="instruction">This App Checks your Date of Birth in 4 formats <br/><span style={{ fontWeight:"bold"}}> YYYY-MM-DD, DD-MM-YYYY, MM-DD-YY, M-DD-YYYY</span></p>
+                <p className="instruction">If your Date of Birth is 01-Aug-1995<br/> then the app will check for 19950801, 01081995, 080195, 1081995</p>
                 <DatePicker
                     selected={startDate}
                     className="date"
@@ -187,9 +187,9 @@ const Home = () => {
             </form>
 
             {isItPalindrome && <p className="results">Awesome! Your birday is a palidrome day.🥳</p>}
-            {dateAndDays && <p className="results">oops, your birthdate is not palindrome. You missed it by {dateAndDays[0]} days. Nearest palindrome date is {dateAndDays[1].day + "/" + dateAndDays[1].month + "/" + dateAndDays[1].year}.</p>}
+            {dateAndDays && <p className="results">Your Date of Birth is not Palindrome. You missed it by {dateAndDays[0]} days. The Nearest palindrome date is {dateAndDays[1].day + "/" + dateAndDays[1].month + "/" + dateAndDays[1].year}. But you are still born special 🥳.</p>}
             <footer>
-                <p>&copy; 2021 reserved.</p>
+                <p>&copy;Dhruva | 2021 September 2021</p>
             </footer>
         </div>
     );
